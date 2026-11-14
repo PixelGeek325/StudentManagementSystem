@@ -18,7 +18,7 @@ public class DatabaseConnection {
     // 此处引号内的字段需替换成你自己数据库的配置，否则会报错
     private static final String URL = "jdbc:mysql://localhost:3306/student_management?useSSL=false&serverTimezone=Asia/Shanghai";
     private static final String USER = "root";
-    private static final String PASSWORD = "0325";
+    private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
     /**
      * 获取数据库连接的方法
      * 1. 异常处理问题：throws SQLException声明可能会抛出的SQL异常，调用者需处理异常
