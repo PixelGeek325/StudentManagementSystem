@@ -52,7 +52,7 @@ StudentManagementSystem/
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/student_management?useSSL=false&serverTimezone=Asia/Shanghai";
 private static final String USER = "root";
-private static final String PASSWORD = "0325"; // 请根据实际情况修改密码
+private static final String PASSWORD = "YOUR_MYSQL_PASSWORD"; // 请根据实际情况修改密码
 ```
 
 
